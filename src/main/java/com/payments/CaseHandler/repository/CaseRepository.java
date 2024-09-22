@@ -1,0 +1,12 @@
+package com.payments.CaseHandler.repository;
+
+import com.payments.CaseHandler.dto.Case;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface CaseRepository extends JpaRepository<Case, Long> {
+//   List<Case> findCaseByStatusEquals(String name);
+}
