@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 @Table(name="payment_case")
-public class Case {
+public class PaymentCase {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

@@ -1,4 +1,3 @@
 package com.payments.CaseHandler.util;
 
-public enum CaseType {NORMAL, RETURN
-}
+public enum CaseType {NORMAL, RETURN}
